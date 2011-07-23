@@ -1,0 +1,49 @@
+body {background: #98c5c9 url(../images/bg.png) repeat-x 0 0; font-family: Verdana, helvetica, arial, sans-serif;}
+a {color: #072130;}
+#main {width: 916px; margin: 0 auto;}
+
+#header {margin: 20px 0 0;}
+#logo {display: block; width: 386px; height: 99px; background: url(../images/logo.png) no-repeat;}
+#ngf {display: block; width: 94px; height: 94px; float: right; background: url(../images/ngf.png) no-repeat;}
+#menu {background: #78b6c5; margin: 10px 0 0; padding-left: 15px; font-size: 120%;}
+#menu li {float: left; margin: 0;}
+#menu a {float: left; padding: 5px 24px 9px;}
+
+#content {background: #e7f3f4; padding: 20px 30px; font-size: 110%;}
+#content h1 {font-size: 160%; font-weight: bold; margin-bottom: 10px;}
+#content h3 {font-size: 120%; font-weight: bold; margin-bottom: 10px;}
+#content h4 {font-weight: bold;}
+#content p {margin-bottom: 15px;}
+#content ul {list-style: disc; margin-left: 20px; margin-bottom: 20px;}
+#content li {margin-bottom: 6px;}
+#content strong {font-weight: bold;}
+#content em {font-style: italic;}
+#content blockquote {padding: 30px; width: 510px; font-weight: bold; font-style: italic; color: #345f71;}
+#content cite {display: block; padding-top: 10px; font-weight: normal; font-style: normal; color: #000;}
+#content th {font-weight: bold; padding-right: 10px;}
+#illustration {
+	float: right; background: #fff; padding: 15px; margin: 5px -27px 15px 0; position: relative; margin-left: 15px;
+	-webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+	-moz-box-shadow: 3px 3px 4px #999;
+	-webkit-box-shadow: 3px 3px 4px #999;
+	box-shadow: 3px 3px 4px #999;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');
+}
+#content table {margin-bottom: 10px;}
+#kart {float: left; margin: 0 10px 10px 0;}
+
+#footer {margin: 10px 0 20px; color: #072130; text-align: center; font-size: 100%;}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
