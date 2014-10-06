@@ -7,7 +7,7 @@ a {color: #072130;}
 #ngf {display: block; width: 94px; height: 94px; float: right; background: url(../images/ngf.png) no-repeat;}
 #menu {background: #78b6c5; margin: 10px 0 0; padding-left: 15px; font-size: 120%;}
 #menu li {float: left; margin: 0;}
-#menu a {float: left; padding: 5px 24px 9px;}
+#menu a {float: left; padding: 5px 19px 9px;}
 
 #content {background: #e7f3f4; padding: 20px 30px; font-size: 110%;}
 #content h1 {font-size: 160%; font-weight: bold; margin-bottom: 10px;}
