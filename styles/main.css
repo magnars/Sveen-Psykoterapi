@@ -11,6 +11,7 @@ a {color: #072130;}
 
 #content {background: #e7f3f4; padding: 20px 30px; font-size: 110%;}
 #content h1 {font-size: 160%; font-weight: bold; margin-bottom: 10px;}
+#content h2 {font-size: 140%; font-weight: bold; margin-bottom: 10px;}
 #content h3 {font-size: 120%; font-weight: bold; margin-bottom: 10px;}
 #content h4 {font-weight: bold;}
 #content p {margin-bottom: 15px;}
@@ -18,8 +19,9 @@ a {color: #072130;}
 #content li {margin-bottom: 6px;}
 #content strong {font-weight: bold;}
 #content em {font-style: italic;}
-#content blockquote {padding: 30px; width: 510px; font-weight: bold; font-style: italic; color: #345f71;}
-#content cite {display: block; padding-top: 10px; font-weight: normal; font-style: normal; color: #000;}
+#content blockquote {padding: 10px 30px 30px; width: 510px; font-style: italic; color: #345f71;}
+#content cite {display: block; padding-top: 10px; padding-left: 10px; font-weight: normal; font-style: normal; color: #000;}
+#content blockquote.right {float: right;}
 #content th {font-weight: bold; padding-right: 10px;}
 #illustration {
 	float: right; background: #fff; padding: 15px; margin: 5px -27px 15px 0; position: relative; margin-left: 15px;
@@ -32,6 +34,18 @@ a {color: #072130;}
 	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";
 	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');
 }
+#illustration.righter {
+    margin-right: -50px;
+}
+
+#illustration.left {
+    float: left; margin: 5px 0 15px -50px;
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+}
+
 #content table {margin-bottom: 10px;}
 #kart {float: left; margin: 0 10px 10px 0;}
 
